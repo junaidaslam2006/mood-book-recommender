@@ -4,3 +4,4 @@ scikit-learn
 numpy
 flask
 openai
+python-dotenv
