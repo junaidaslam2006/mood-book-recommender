@@ -14,7 +14,7 @@ if st.button("Get Book Suggestions"):
         st.write(f"**Confidence:** {confidence:.2f}")
 
         st.subheader("📖 Recommended Books:")
-        books = fetch_books_from_openlibrary(mood_query, limit=10)
+        books = fetch_books_from_openlibrary(mood_query, limit=4)
         
         if books:
             for book in books:
