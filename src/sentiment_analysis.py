@@ -43,3 +43,4 @@ def analyze_mood(user_input):
     except Exception as api_error:
         print("Error calling LLM API:", api_error)
         return "general", 0.5
+
